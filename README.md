@@ -1,4 +1,4 @@
-# Academic Project Page Template
+# PD-CR
 This is an academic paper project page template.
 
 
