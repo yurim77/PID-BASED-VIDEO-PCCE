@@ -1,4 +1,4 @@
-# PD-CR
+# Revisiting PID control for Power-Constrained Video Display
 This is an academic paper project page template.
 
 
