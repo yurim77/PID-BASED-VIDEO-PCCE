@@ -47,80 +47,48 @@
 <body>
 
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Revisiting PID control for Power-Constrained Video Display</h1>
+
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">Yurim Jang, Hyunjun Cho,  Geon-Ho Park, Min-Jae Yoo, and Seung-Won Jung<br> </span>
-                
-<!--               <a href="https://sites.google.com/view/hyunjun-cho/" target="_blank">Hyunjun Cho</a><sup></sup>,</span> -->
-<!--                 <span class="author-block"> -->
-<!--                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Hong-Kyu Shin</a><sup></sup>,</span> -->
-<!--                   <span class="author-block"> -->
-<!--                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yurim Jang</a><sup></sup>,</span> -->
-<!--                     <span class="author-block"> -->
-<!--                       <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Geon-Ho Park</a><sup></sup>,</span> -->
-<!--                       <span class="author-block"> -->
-<!--                         <a href="https://dali.korea.ac.kr/xe/Professor" target="_blank">Sung-Jea Ko</a><sup></sup>,</span>                       -->
-<!--                         <span class="author-block"> -->
-<!--                           <a href="https://sites.google.com/view/deepiplab/members/project-definition" target="_blank">Seung-Won Jung</a> -->    
-                  
-                  </div>
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Korea University<br> </span>
-                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
-                  </div>
+              <span class="author-block">Yurim Jang, Hyunjun Cho,  Geon-Ho Park, Min-Jae Yoo, and Seung-Won Jung<br> </span>                  
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
                     </span>
-
-                    <!-- Supplementary PDF link -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span> -->
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/YOUR REPO HERE" target="_blank" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
                     <span>Code</span>
                   </a>
                 </span>
-
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
+                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
           </div>
         </div>
       </div>
@@ -128,35 +96,19 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        #Your video here
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video> -->
-      <!-- <h2 class="subtitle has-text-centered">
-        The project page will be open.
-      </h2> -->
-    <!-- </div> -->
-  <!-- </div> -->
-<!-- </section>  -->
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
+
         <div class="content has-text-justified">
           <p>
             Due to the significant power consumption of emissive display panels and the limited battery capacity of electronic devices, it is necessary to implement power-constrained display operations for video content. One of the effective power-constrained display techniques is power-constrained contrast enhancement (PCCE), which aims to reduce the power demands of the display while maintaining the quality of the content. However, PCCE has been mainly studied in the image domain. In this paper, we explore how PCCE can be applied to the video domain by revisiting the proportional-integral-derivative (PID) control. The proposed method consists of three key components: 1) The proportional term determines a power-saving ratio for each video frame based on its luminance, resulting in aggressive power-saving in bright video frames; 2) the integral term ensures that the target power-saving ratio is achieved over the entire video; 3) the differential term prevents abrupt temporal fluctuations in the power-saving ratio of consecutive video frames. The experimental results demonstrate that the proposed PID-based PCCE method achieves superior performance on two public video datasets. In particular, the proposed method achieves 5.8% improvements in VMAF compared to the previous method on the TVSum dataset.            
           </p>
         </div>
+
       </div>
     </div>
   </div>
@@ -167,32 +119,39 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
       <h2 class="title is-3">Video PCCE Result</h2>
+      
+      <div class="content has-text-justified">
+        <p>
+          Visual comparison of the PCCE results: From left to right, Input video, PCCE results obtained by 'constant', 'adaptive', PI controller, and PID controller(ours), respectively.
+        </p>
+      </div>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EkM3WlPlZUA?si=tK9PCW3qNjhChIR_?autoplay=1&mute=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div class="publication-video" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EkM3WlPlZUA?si=ejDnG6VfAsih8vis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section> 
 <!-- End youtube video -->
 
+<!-- Table -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Details of Test Sequences</h2>
+
         <div class="content has-text-justified">
           <p>
             Our evaluation was performed on the <a href="https://openaccess.thecvf.com/content_cvpr_2015/html/Song_TVSum_Summarizing_Web_2015_CVPR_paper.html" target="_blank" style="color:cornflowerblue">TVSum (15 CVPR)</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-319-10584-0_33" target="_blank" style="color:cornflowerblue">SumMe (14 ECCV)</a> datasets. We selected the five videos with the highest standard deviation of the average luminance of the frames for each dataset, corresponding to challenging scenes with dynamic brightness changes. The detailed information for the selected videos is provided in the table below.
           </p>
         </div>
-
         <style type="text/css">
           .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
           .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
@@ -271,81 +230,7 @@
     </div>
   </div>
 </section>
-
-
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      Paper video. -->
-      <!-- <h2 class="title is-3">Video Presentation</h2> -->
-      <!-- <div class="columns is-centered has-text-centered"> -->
-        <!-- <div class="column is-four-fifths"> -->
-          
-          <!-- <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-<!-- </section> --> 
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            Your video file here -->
-            <!-- <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel2.mp4"
-            type="video/mp4"> -->
-          <!-- </video>
-        </div> -->
-        <!-- <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div> -->
-<!-- </section> --> 
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" style="height:500px">
-          </iframe>
-        
-      </div>
-    </div>
-  </section> -->
-<!--End paper poster -->
-
+<!-- End Table -->
 
 <!--BibTex citation -->
 <!--   <section class="section" id="BibTeX">
@@ -355,12 +240,13 @@
     </div>
 </section> -->
 <!--End BibTex citation -->
+
 <center>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fchohj1111.github.io%2FPD-CR%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </center>
 
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
@@ -379,10 +265,8 @@
 </footer>
 
 <!-- Statcounter tracking code -->
-  
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+<!-- End of Statcounter Code -->
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
